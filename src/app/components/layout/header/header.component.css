@@ -1,0 +1,82 @@
+.menu{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: transparent;
+}
+li{
+    list-style: none;
+}
+
+
+.element{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 5px #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+
+.element:hover{
+    font-size: 1.4rem;
+}
+
+.active{
+    background-color: #1f6e8b;
+    text-shadow: none;
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 30px;
+}
+
+#logo{
+    width: 100px;
+}
+
+.menu-phone{
+    display: none;
+}
+
+@media screen and (max-width: 1185px) {
+    .element{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1089px) {
+    .menu{
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .menu{
+        display: none;
+    }
+
+    .menu-phone{
+        display: block;
+        width: 100%;
+        padding: 20px;
+        
+        background: rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur( 20px );
+        -webkit-backdrop-filter: blur( 20px );
+        border-radius: 10px;
+    }
+
+    #menu-squares{
+        width: 8%;
+    }
+}

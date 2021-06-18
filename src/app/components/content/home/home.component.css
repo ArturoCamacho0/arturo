@@ -1,0 +1,76 @@
+section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 60%;
+    margin: 20px;
+
+    background: rgba(0, 0, 0, 0.151);/* 
+    box-shadow: 5 8px 32px rgba(0, 0, 0, 0.973); */
+    backdrop-filter: blur( 29.0px );
+    -webkit-backdrop-filter: blur( 29.0px );
+    border-radius: 10px;
+}
+
+section h1{
+    font-family: 'Roboto', Arial;
+    color: white;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.content-home{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#profile-image{
+    width: 30%;
+    border-radius: 5%;
+}
+
+.content-home p{
+    font-family: 'Roboto', Arial;
+    text-align: justify;
+    color: #fff;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+
+
+.btn-grad {
+    font-family: 'Roboto', Arial;
+    background: rgba(81, 83, 219, 0.123);
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+}
+
+.btn-grad:hover{
+    background: rgba(0, 0, 0, 0.151);
+}
+
+.card{
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+h2{
+    font-family: 'Roboto', Arial;
+    
+}
